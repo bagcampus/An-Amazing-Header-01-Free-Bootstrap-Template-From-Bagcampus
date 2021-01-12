@@ -1,0 +1,23 @@
+/* header */
+.nav-link:hover{
+    background: -webkit-linear-gradient(left, #1d3ede, #01e6f8);
+    -webkit-background-clip: text;
+    -ms-background-clip: text;
+    background: -ms-linear-gradient(left, #1d3ede, #01e6f8);
+    background: -moz-linear-gradient(left, #1d3ede, #01e6f8);
+    background: -o-linear-gradient(left, #1d3ede, #01e6f8);
+    -o-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -ms-text-fill-color: transparent;
+    -o-text-fill-color: transparent;
+}
+
+a.nav-link.text-white {
+    padding-left: 58px;
+}
+
+li.nav-item {
+    padding-left: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
