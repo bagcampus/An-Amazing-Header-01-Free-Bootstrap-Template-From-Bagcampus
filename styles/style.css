@@ -21,3 +21,63 @@ li.nav-item {
     font-size: 16px;
     cursor: pointer;
 }
+
+#header{
+width: 100%;
+background: url('../images/bg.jpeg') no-repeat fixed center;
+background-size: cover;
+clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+}
+
+.container-fluid {
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+padding-bottom: 100px;
+margin-bottom: 10px;
+}
+
+.head-area h1 {
+font-family: cursive;
+font-size: 48px;
+font-weight: 700;
+color: #ffffff;
+max-width: 500px;
+margin-top: 60px;
+}
+
+.card .card-img-top {
+max-width: 430px;
+margin: 0 auto;
+margin-top: 60px;
+margin-right: 0;
+}
+
+@media screen and (max-width: 767px) {
+#header .card{
+display: none;
+}
+}
+
+.head-area p {
+max-width: 450px;
+margin: 20px 0;
+margin-bottom: 40px;
+}
+
+.head-area p {
+color: #f8f9fa;
+font-size: 18px;
+}
+
+.head-area a, #tabs li .active, .spl-bt {
+display: inline;
+padding: 10px 30px;
+background-image: -webkit-linear-gradient(0deg, #393c8b 0%, #3569d6 100%);
+font-size: 18px;
+color: #fff;
+border-radius: 50px;
+text-decoration: none !important;
+}
