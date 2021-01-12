@@ -81,3 +81,47 @@ color: #fff;
 border-radius: 50px;
 text-decoration: none !important;
 }
+
+/* modal */
+.modal-body {
+max-height: calc(100vh - 210px);
+overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #3563cede;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #3564ce;
+}
+
+/* whatsapp */
+
+.whatsapp {
+position: fixed;
+display: inline;
+bottom: 15px;
+background: #2e414d00;
+position: fixed;
+color: #fff;
+text-align: center;
+line-height: 1;
+font-size: 16px;
+border-radius: 50%;
+left: 15px;
+bottom: 15px;
+transition: background 0.5s;
+z-index: 11;
+}
